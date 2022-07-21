@@ -75,3 +75,190 @@ span {
     transform: translateX(-50%);
     cursor: pointer;
 }
+
+/* other-link styles */
+.others-link {
+    margin-left: 90px;
+}
+
+.others-link .first {
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    margin: 15px 0;
+    display: inline-block;
+    background-color: #f73535;
+    border: 2px solid #f73535;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.others-link .first:hover {
+    background-color: transparent;
+    color: #003256;
+    border: 2px solid #003256;
+    transition: 0.5s;
+}
+
+.others-link .second {
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    margin: 15px 0;
+    display: inline-block;
+    background-color: #f73535;
+    border: 2px solid #f73535;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.others-link .second:hover {
+    background-color: transparent;
+    color: #003256;
+    border: 2px solid #003256;
+    transition: 0.5s;
+}
+
+.others-link .third {
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    margin: 15px 0;
+    display: inline-block;
+    background-color: #f73535;
+    border: 2px solid #f73535;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.others-link .third:hover {
+    background-color: transparent;
+    color: #003256;
+    border: 2px solid #003256;
+    transition: 0.5s;
+}
+
+/* main section */
+.football {
+    width: 100%;
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.football .football-box {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.football .football-box .football-card {
+    width: 325px;
+    height: 480px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.football .football-box .football-card .football-image {
+    width: 300px;
+    height: 245px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.football .football-box .football-card .football-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+
+.football .football-box .football-card .football-image:hover img {
+    transform: scale(1.1);
+}
+
+.football .football-info h4 {
+    margin: 12px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.football .football-info p {
+    margin: 12px;
+}
+
+.football .football-box .football-card .icon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+/* footer style */
+.footer-main {
+    padding: 40px 0;
+    background-color: rgb(8, 8, 8);
+}
+
+.footer-main .footer-tag {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-main .social {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer-main .social a {
+    font-size: 40px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 0 8px;
+}
+
+.footer-main ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer-main ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-main ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer-main .copyright {
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+}
